@@ -1,0 +1,106 @@
+/* GOOGLE FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(file:///E:/Project/servo%20background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(244, 235, 235, 0.909), rgba(0,0,0,0file:.5)), url(img/SL-0212121-40670-60.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+header nav{
+    background-color: rgba(247, 15, 15, 0.868);
+header nav:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+header nav .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(16, 225, 218);  
+}
+.banner-content h2{
+    color: rgb(13, 220, 235);
+    font-size: 52px;
+    max-width: 600px;
+    margin-top: 50px;
+    line-height: 60px;
+}
+.banner-content h2 span{
+    color: #1c0ae3;
+}
+.banner-content p{
+    color: rgb(4, 10, 126);
+    margin-top: 10px;
+    max-width: 500px;
+}
+.recent-blogs{
+    color: rgb(188, 15, 15);
+    margin-top: 50px;
+}
+.recent-blogs .row{
+    width: 1000%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(209, 196, 196, 0.909);
+    padding-top: 25px;
+}
+.recent-blogs .row .col{
+    width: 32%;
+}
+.recent-blogs h6{
+    background-color: #ecb32a;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 50px;
+   
+}
+.recent-blogs h2{
+    font-size: 20px;
+    margin-top: 10px;
+    max-width: 300px;
+}
+.recent-blogs p{
+    font-size: 14px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.recent-blogs a{
+    color: #ecb32a;
+}
+video{
+    src: url(file:///D:/SERVO/servo.mp4);
+
+    position: fixed;position: fixed; right: 0%; bottom: 0%; min-width: 100%; min-height: 100%^;
+    width: auto; heigh: auto;
+}
